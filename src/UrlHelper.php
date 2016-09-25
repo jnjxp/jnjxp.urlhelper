@@ -127,7 +127,7 @@ class UrlHelper
     /**
      * Get current route
      *
-     * @return \Aura\Router\Route
+     * @return \Aura\Router\Route|false
      *
      * @access public
      */

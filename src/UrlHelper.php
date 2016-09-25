@@ -82,7 +82,7 @@ class UrlHelper
      * @param string $name route name
      * @param array  $data array of params
      *
-     * @return string|$this
+     * @return $this|string
      *
      * @access public
      */
@@ -127,7 +127,7 @@ class UrlHelper
     /**
      * Get current route
      *
-     * @return \Aura\Router\Route;
+     * @return \Aura\Router\Route
      *
      * @access public
      */
@@ -139,7 +139,7 @@ class UrlHelper
     /**
      * Get failed route
      *
-     * @return \Aura\Router\Route;
+     * @return \Aura\Router\Route
      *
      * @access public
      */
@@ -151,8 +151,8 @@ class UrlHelper
     /**
      * Generate URL
      *
-     * @param name  $name name of route
-     * @param array $data params
+     * @param string $name name of route
+     * @param array  $data params
      *
      * @return string
      *
@@ -166,8 +166,8 @@ class UrlHelper
     /**
      * Generate raw URL
      *
-     * @param name  $name name of route
-     * @param array $data params
+     * @param string $name name of route
+     * @param array  $data params
      *
      * @return string
      *

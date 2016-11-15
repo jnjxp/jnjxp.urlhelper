@@ -1,0 +1,30 @@
+{
+    "name": "jnjxp/urlhelper",
+    "description": "URL view helper for Aura Router",
+    "homepage":"https://github.com/jnjxp/jnjxp.urlhelper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "require": {
+        "aura/router": "^3.0",
+        "psr/http-message": "~1.0"
+    },
+    "require-dev":{
+        "zendframework/zend-diactoros": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\UrlHelper\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jnjxp\\UrlHelper\\":"tests/"
+        }
+    }
+}
